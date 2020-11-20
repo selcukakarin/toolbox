@@ -1,0 +1,33 @@
+
+# Belirli bir dosyayı es geçmek için
+#config.php
+django/erp/ERP/settings.py
+django/erp/db.sqlite3
+django/erp/ERP.sock
+source_venv.sh
+
+# migrations dosyalarini es gecmek icin
+django/erp/*/migrations/0*.py
+
+# Belirli bir dizini es geçmek için
+#logs/
+#site/
+auth/
+venv/
+site/logs/
+site/public/staticfiles/
+site/public/static/
+site/public/media/
+.vscode/
+
+# Belirli bir uzantılı dosyaları es geçmek için
+#*.styl
+*.DS_Store
+
+# .pyc, .pyo, .pyd uzantili dosyalari es gecmek icin
+*.py[cod]
+
+# log dosyalarını es geç ama error.log dosyaları hariç.
+#*.log
+##!errors.log
+##!site/public/static/admin/css/style.css
