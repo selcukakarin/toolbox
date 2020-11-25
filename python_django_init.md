@@ -35,7 +35,10 @@ sudo update-alternatives  --set python /usr/bin/python3.7       eğer yukarıdak
 alias python=python3
 
 python --version
+
+alias python='/usr/bin/python3'
 ```
+[Source](https://stackoverflow.com/questions/41986507/unable-to-set-default-python-version-to-python3-in-ubuntu)
 
 ## Pip kurulumu
 
