@@ -1088,6 +1088,8 @@ $ python manage.py migrate --fake-initial
 Check permission inside a template in Django
 kaynak : https://stackoverflow.com/questions/9469590/check-permission-inside-a-template-in-django
 ######
+xhtml2pdf türkçe karakter sorunu
+https://stackoverflow.com/questions/45689236/django-pdf-response-has-wrong-encoding-xhtml2pdf
 ######
 ######
 ######
