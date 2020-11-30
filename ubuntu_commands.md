@@ -183,3 +183,10 @@ Restart your PC and reinstall MySQL. That’s all!
 
 [Source](https://linuxize.com/post/how-to-install-anaconda-on-ubuntu-18-04/#uninstalling-anaconda)
 
+### remove jupyter notebook password
+
+[Source](https://stackoverflow.com/questions/48230706/how-to-remove-password-for-jupyter-notebooks-and-set-token-again)
+
+### jupyter notebook permission denied resolution
+
+[Source](https://github.com/jupyter/notebook/issues/4500)
