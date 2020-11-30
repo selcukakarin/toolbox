@@ -153,23 +153,33 @@ sudo systemctl start nginx.service
 sudo systemctl status nginx.service
 ```
 
-How to Uninstall/Clean MySQL from Windows completely
+### How to Uninstall/Clean MySQL from Windows completely
 
 [Source](https://old.windowsvalley.com/uninstall-mysql-from-windows/)
 
 Run Command Prompt as Administrator and execute the following command to stop and remove MySQL service.
+
 Net stop MySQL
+
 Sc delete MySQL
 
 Go to Control Panel >> Programs >> Programs and Features, select MySQL Server 5.x and click Uninstall. (If you can uninstall MySQL from Control Panel)
+
 Open Windows Explorer and go to Organize > Folder and search options, Select the “View” tab and under “Hidden files and Folders” choose “Show hidden files and folders”. Now explore the following locations and delete following folders.
+
 C:\Program Files\MySQL
+
 C:\Program Files (x86)\MySQL
+
 C:\ProgramData\MySQL
+
 And if exists, delete it too
+
 C:\Users\[User-Name]\AppData\Roaming\MySQL
 
 Restart your PC and reinstall MySQL. That’s all!
 
+### uninstall anaconda in ubuntu
 
+[Source](https://linuxize.com/post/how-to-install-anaconda-on-ubuntu-18-04/#uninstalling-anaconda)
 
