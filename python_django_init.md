@@ -756,3 +756,13 @@ pip3 install pandas
 [conda yükleme](https://github.com/selcukakarin/ToolBox/blob/master/ubuntu_commands.md)
 
 [pyspark yükleme](https://medium.com/tinghaochen/how-to-install-pyspark-locally-94501eefe421)
+
+## django internationalization komutları
+
+```
+django-admin.py makemessages -l tr
+django-admin.py makemessages -l tr -i venv
+django-admin makemessages --all --ignore venv
+django-admin compilemessages --ignore=cache --ignore=outdated/*/locale
+python manage.py compilemessages -i "venv*"
+```
