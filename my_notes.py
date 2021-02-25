@@ -1091,6 +1091,9 @@ kaynak : https://stackoverflow.com/questions/9469590/check-permission-inside-a-t
 xhtml2pdf türkçe karakter sorunu
 https://stackoverflow.com/questions/45689236/django-pdf-response-has-wrong-encoding-xhtml2pdf
 ######
+windows bulunan bir pcye kali yüklenirse ve grub windows görmez ise aşağıdaki kod uygulanabilir
+grub-mkconfig -o /boot/grub/grub.cfg
+kaynak : https://unix.stackexchange.com/questions/309759/windows-10-is-not-showing-in-grub2-after-kali-linux-install
 ######
 ######
 ######
