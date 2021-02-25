@@ -1095,6 +1095,8 @@ windows bulunan bir pcye kali yüklenirse ve grub windows görmez ise aşağıda
 grub-mkconfig -o /boot/grub/grub.cfg
 kaynak : https://unix.stackexchange.com/questions/309759/windows-10-is-not-showing-in-grub2-after-kali-linux-install
 ######
+kali dual boot with windows
+https://www.youtube.com/watch?v=BRk71KypnBg
 ######
 ######
 ######
