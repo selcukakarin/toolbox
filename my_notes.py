@@ -1098,6 +1098,14 @@ kaynak : https://unix.stackexchange.com/questions/309759/windows-10-is-not-showi
 kali dual boot with windows
 https://www.youtube.com/watch?v=BRk71KypnBg
 ######
+eğer mysql django ile mysqlclient olmadığı için hata aldıysa ve mysqlclient yüklenemiyorsa. manuel olarak elle mysqlclient yüklemek için 
+https://stackoverflow.com/questions/51294268/pip-install-mysqlclient-returns-fatal-error-c1083-cannot-open-file-mysql-h
+adresinden yararlanın
+https://www.lfd.uci.edu/~gohlke/pythonlibs/#mysqlclient
+bu siteden python sürümünüze olan sürümü indirin ve pip install dosya-yolu şeklinde kurun.
+Daha sonra makemigrationda NULL gibi bir sorunla karşılaşırsanız aşağıdaki yöntemi deneyin
+https://stackoverflow.com/questions/51926091/django-mysqlclient-backend-produces-django-db-utils-operationalerror-2059-nu
+
 ######
 ######
 ######
